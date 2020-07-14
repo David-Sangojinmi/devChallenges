@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Space+Mono|Montserrat");
+
+body {
+    font-family: "Inconsolata";
+    color: #333333;
+    font-style: normal;
+    width: 100%;
+}
+
+#header p {
+    font-family: "Inconsolata", sans-serif;
+    padding-left: 77px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+footer #footer {
+    text-align: center;
+}
+
+#scarecrow {
+    width: 90%;
+    max-width: 539px;
+    max-height: 447px;
+}
+
+#main h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    padding-bottom: 36px;
+}
+
+#main p {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    padding-bottom: 64px;
+}
+
+#btn {
+    padding: 24px 43px;
+    background-color: #333333;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+footer #footer {
+    padding-top: 200px;
+}
+
+footer #footer p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media (max-width: 450px) {
+    #header p {
+        padding-left: 24px;
+        padding-top: 20px;
+        padding-bottom: 64px;
+    }
+
+    #scarecrow {
+        width: 287px;
+        height: 238px;
+    }
+
+    #main h1 {
+        font-size: 48px;
+        line-height: 71px;
+        padding-top: 60px;
+        padding-bottom: 29px;
+    }
+    #main p {
+        font-size: 18px;
+        line-height: 27px;
+        padding-bottom: 67px;
+    }
+    #main button #btn{
+        width: 216px;
+        height: 68px;
+    }
+
+    footer #footer {
+        padding-top: 96px;
+        text-align: center;
+    }
+}
