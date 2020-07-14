@@ -105,5 +105,6 @@ footer #footer p {
     footer #footer {
         padding-top: 96px;
         text-align: center;
+        padding-bottom: 10px;
     }
 }
